@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+            header{
+                background-color: pink;
+                height: 100px;
+                text-align: center;
+                justify-content: center;
+                display: flex;
+                color: white;
+                font-size: 40px;
+                font-weight: 900;
+            }
+            ul{
+                display: flex;
+            }
+            li{
+                margin-left: 25px;
+                list-style-type: none;
+            }
+            nav a :hover{
+                background-color: red;
+            }
+            nav a{
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                cursor: pointer;
+                padding: 50px;
+
+            }
+            nav{
+                background-color: orange;
+            }
+            .sunmenu{
+                position: relative;
+            }
+            .dropdown{
+                position: absolute;
+                display: none;
+                left: 0;
+                top: 0;
+            }
+            .sunmenu > a:hover .dropdown{
+                display: block;
+                background-color: aqua;
+            }
+            </style>
+    </head>
+    <body>
+        <header>COS</header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Html</a></li>
+                <li><a href="#">css</a></li>
+                <li class="submenu">
+                    <a href="#">Javascript</a>
+                    <div class="dropdown">
+                        <div>link1</div>
+                        <div>link2</div>
+                        <div>link3</div>
+                    </div>
+                </li>
+                
+            </ul>
+        </nav>
+    </body>
+</html>

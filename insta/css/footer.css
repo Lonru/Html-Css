@@ -1,0 +1,16 @@
+footer{
+    padding: 20px 137px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+footer nav ul li{
+    margin-left: 15px;
+    color: midnightblue;
+    font-size: 14px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <p>날 클릭!</p>
+    <!-- <p onclick="mClick()">안녕!! 날 클릭해</p> -->
+    <script>
+        //click함수에 인수에는 함수가 들어가야 함
+        $("p").click(function(){
+            alert("클릭됨");
+    });
+    $("p").mouseenter(function(){
+        alert("마우스 올라감");
+    })
+    </script>
+</body>
+</html>

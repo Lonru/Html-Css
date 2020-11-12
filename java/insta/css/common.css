@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+
+}
+main{
+    max-width: 935px; 
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding-top: 84px;
+    margin: 0 auto;
+}
